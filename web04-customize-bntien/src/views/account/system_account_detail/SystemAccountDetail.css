@@ -1,0 +1,110 @@
+#detail-add-system-account {
+    height: 100%;
+    width: 800px;
+    background-color: white;
+    z-index: 8888;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.system-account-title{
+    margin-top: -10px;
+}
+
+.system-account-title p b{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.system-account-track-detail{
+    width: 90%;
+    height: 160px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.title-track-detail-icon{
+    cursor: pointer;
+}
+
+#detail-add-system-account .e-cbb {
+    height: 26px;
+  }
+
+#detail-add-system-account .e-textfield-cbb {
+  height: calc(26px - 0.667px * 2);
+}
+
+#detail-add-system-account .e-textfield-cbb input {
+  height: calc(26px - 0.667px * 2);
+}
+
+#detail-add-system-account .select-entity{
+  top: 54px;
+  max-height: 105px;
+}
+
+#detail-add-system-account .select-entity ul {
+  line-height: 26px;
+}
+
+#detail-add-system-account .select-entity li {
+  height: 26px;
+}
+
+#detail-add-system-account .e-icon-cbb {
+  height: calc(26px - 0.667px * 2);
+  width: calc(26px - 0.667px * 2);
+  background-color: white;
+}
+
+#detail-add-system-account .e-icon-cbb:hover{
+  background-color: var(--color-border-default);
+}
+
+#detail-add-system-account .title-track-detail {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: -15px;
+  margin-bottom: 8px;
+}
+
+#detail-add-system-account .title-track-detail-text {
+  font-size: 16px;
+}
+
+#detail-add-system-account .content-track-detail {
+  margin-left: 10px;
+}
+
+#detail-add-system-account .content-track-detail-row {
+  display: flex;
+  column-gap: 40px;
+  margin-bottom: 10px;
+}
+  
+#detail-add-system-account .content-track-detail-halfrow {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+#detail-add-system-account .form-detail-content {
+  height: calc(100% - 70px);
+}
+
+#detail-add-system-account .form-detail-action {
+  height: 40px;
+}
+
+#detail-add-system-account .form-detail-action button {
+  height: 26px;
+}
+
+
+
+

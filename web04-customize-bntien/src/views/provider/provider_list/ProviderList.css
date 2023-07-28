@@ -1,0 +1,70 @@
+#content-main-body-provider{
+    height: calc(100% - 140px);
+}
+
+.content-info-money{
+    height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.refresh-money{
+    position: absolute;
+    right: 5px;
+    top: 120px;
+    padding: 1px;
+    background-color: #f0ecec;
+}
+
+.info-money-item{
+    width: calc(100%/3);
+    display: flex;
+    background-color: #ffffff;
+}
+
+.info-money-item-left{
+    width: 4px;
+}
+
+.info-money-item-right{
+    width: calc(100% - 4px);
+    box-sizing: border-box;
+    padding: 4px 8px;
+}
+
+.money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.format-money{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content-money{
+    position: relative;
+}
+
+.content-money-last-child{
+    position: absolute;
+    font-size: 11px;
+    bottom: 0;
+    right: 5px;
+}
+
+.content-action-left{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.filter-provider{
+    width: 80px;
+}

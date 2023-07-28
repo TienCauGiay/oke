@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select-item-cbb-multiple .form-cbb-menu{
+    position: absolute;
+    width: 100%;
+    top: calc(100% + 5px);
+    max-height: 134px;
+}
+
+.select-item-cbb-multiple .form-cbb-menu-item div:last-child{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.select-item-cbb-multiple .form-cbb-menu-item div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col-1-cbb-menu-item {
+    flex: 0 0 150px; 
+    min-width: 150px; 
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+  
+.col-2-cbb-menu-item {
+    flex: 0 0 200px; 
+    min-width: 200px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

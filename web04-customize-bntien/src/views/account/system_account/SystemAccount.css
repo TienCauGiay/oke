@@ -1,0 +1,102 @@
+.search-account {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.search-account input{
+    width: 250px;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.expand-account{
+    color: #007AFF;
+    cursor: pointer;
+}
+
+#list-account-system{
+    border-bottom: 1px solid var(--color-border-default);
+}
+
+#list-account-system table{
+    min-width: 1368px;
+}
+
+.as-name-english{
+    width: 250px;
+    max-width: 250px;
+}
+
+#list-account-system .as-account-number-1
+{
+    width: 150px;
+    max-width: 150px;
+    padding-left: 16px;
+    left: unset;
+}
+
+#list-account-system .as-account-number-2{
+    width: 150px;
+    max-width: 150px;
+    padding-left: 28px;
+}
+
+#list-account-system .as-account-number-3{
+    width: 150px;
+    max-width: 150px;
+    padding-left: 40px;
+}
+
+#list-account-system .as-account-number-4{
+    width: 150px;
+    max-width: 150px;
+    padding-left: 44px;
+}
+
+#list-account-system tr td:first-child{
+    border: 1px solid var(--color-border-default);
+    border-left: none;
+}
+
+#list-account-system .as-account-number-1 span:first-child,
+#list-account-system .as-account-number-2 span:first-child,
+#list-account-system .as-account-number-3 span:first-child,
+#list-account-system .as-account-number-4 span:first-child{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.as-nature{
+    width: 200px;
+    max-width: 200px;
+}
+
+#list-account-system .as-feature{
+    width: 110px;
+    max-width: 110px;
+}
+
+.as-status{
+    width: 150px;
+    max-width: 150px;
+}
+
+#menu-function-select-account{
+    width: 200px;
+}
+
+.container-overlay{
+    background-color: rgba(41, 37, 37, 0.781);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 8000;
+}
